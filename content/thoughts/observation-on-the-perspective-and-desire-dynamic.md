@@ -63,4 +63,6 @@ Missing any part of the approach to the problem causes failed attempts and an un
 
 ### 6. Outcome
 
-The least one can do is be in a state of taking any kind of action, then focus on oneself to get to know oneself better to optimize inner problems by considering what one really wants for a considerable future and that exact interval of life while also trying to consider if the prejudgemental perspective is causing any unwanted bias in action direction before making any adjustment towards an optimal, working subjective personal tendency, always keeping the understanding of the dynamic nature of desire between now and later.
+The least one can do is be in a state of taking any kind of action. 
+
+Then focus on oneself to get to know oneself better to optimize inner problems by considering what one really wants for a considerable future and that exact interval of life while also trying to consider if the prejudgemental perspective is causing any unwanted bias in action direction before making any adjustment towards an optimal, working subjective personal tendency, always keeping the understanding of the dynamic nature of desire between now and later.
