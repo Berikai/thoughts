@@ -17,32 +17,6 @@ A minimal, ultra-clean personal thoughts & essay site inspired by [timbaek.com/t
 
 ---
 
-## 📁 Repository Structure
-
-```text
-.
-├── .github/workflows/deploy.yml   # Automatic GitHub Pages deployment workflow
-├── content/
-│   └── thoughts/                  # Your Markdown articles
-│       ├── the-new-credential-is-evidence.md
-│       ├── be-ambitious.md
-│       └── will-your-hard-work-pay-off.md
-├── public/
-│   ├── css/style.css              # Clean CSS with Google Sans, typography, dark mode
-│   ├── js/main.js                 # 15-line vanilla copy-to-clipboard script
-│   └── favicon.png
-├── templates/
-│   ├── base.html                  # HTML head, Google Fonts links, shell
-│   ├── index.html                 # Thoughts listing view
-│   └── post.html                  # Article view
-├── site.config.json               # Site title, author, heading customization
-├── build.js                       # Simple compiler (Markdown -> static HTML in dist/)
-├── dev.js                         # Local dev server with live file watching
-└── package.json
-```
-
----
-
 ## 🚀 Getting Started
 
 ### 1. Install Dependencies
