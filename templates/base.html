@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{pageTitle}}</title>
+  <meta name="description" content="{{description}}">
+  <link rel="icon" href="{{assetsPath}}favicon.png">
+  
+  <!-- Google Sans & Google Sans Code -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  
+  <!-- KaTeX CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/katex.min.css" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="{{assetsPath}}css/style.css">
+  <script>
+    (function() {
+      try {
+        const theme = localStorage.getItem('theme');
+        if (theme) document.documentElement.setAttribute('data-theme', theme);
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <div class="container">
+    <div class="content-wrapper">
+      {{content}}
+    </div>
+  </div>
+
+  <!-- Spotify Floating Pill Widget -->
+  <a id="spotify-widget" class="spotify-widget" target="_blank" rel="noopener noreferrer" aria-label="Listening to Spotify">
+    <img id="spotify-art" class="spotify-art" src="" alt="" width="42" height="42" />
+    <div class="spotify-details">
+      <div class="spotify-status-row">
+        <div class="spotify-status-label">
+          <svg class="spotify-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.495 17.306c-.215.353-.676.467-1.03.252-2.825-1.727-6.381-2.118-10.569-1.161-.403.092-.806-.16-.898-.564-.092-.403.16-.806.564-.898 4.587-1.048 8.52-.605 11.68 1.341.353.215.467.676.253 1.03zm1.467-3.262c-.27.44-.847.58-1.287.31-3.235-1.988-8.167-2.564-11.994-1.401-.497.151-1.025-.132-1.176-.629-.151-.497.132-1.025.629-1.176 4.375-1.328 9.815-.688 13.518 1.589.44.27.58.847.31 1.307zm.126-3.41c-3.879-2.303-10.274-2.515-13.985-1.388-.595.18-1.226-.157-1.406-.752-.18-.595.157-1.226.752-1.406 4.26-1.293 11.31-1.045 15.772 1.603.535.318.708 1.01.39 1.545-.318.535-1.01.708-1.523.398z"/>
+          </svg>
+          <span id="spotify-heading" class="spotify-heading">{{spotifyHeading}}</span>
+        </div>
+        <div id="spotify-eq" class="spotify-equalizer" aria-hidden="true">
+          <span class="eq-bar eq-bar-1"></span>
+          <span class="eq-bar eq-bar-2"></span>
+          <span class="eq-bar eq-bar-3"></span>
+        </div>
+      </div>
+      <div class="spotify-title-row">
+        <span id="spotify-track" class="spotify-track"></span>
+      </div>
+      <div class="spotify-meta-row">
+        <span id="spotify-artist" class="spotify-artist"></span>
+        <span class="spotify-separator">·</span>
+        <span id="spotify-time" class="spotify-time"></span>
+      </div>
+    </div>
+    <div class="spotify-progress-track">
+      <div id="spotify-progress-bar" class="spotify-progress-bar"></div>
+    </div>
+  </a>
+
+  <script src="{{assetsPath}}js/main.js"></script>
+</body>
+</html>
+

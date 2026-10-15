@@ -1,0 +1,26 @@
+{
+  "name": "thoughts",
+  "version": "1.0.0",
+  "description": "Minimal, clean thoughts blog with Google Sans, deployed on GitHub Pages",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "node dev.js",
+    "start": "node dev.js"
+  },
+  "keywords": [
+    "blog",
+    "thoughts",
+    "minimal",
+    "google-sans"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "katex": "^0.18.10",
+    "marked": "^18.1.1",
+    "marked-footnote": "^1.4.0",
+    "marked-katex-extension": "^5.1.13",
+    "yaml": "^2.7.0"
+  }
+}
